@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+    .pull-right-lg {
+        float: right !important;
+    }
+}

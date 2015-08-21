@@ -1,0 +1,12 @@
+<div ng-controller="ProjectLinksController as links">
+    <div ng-repeat="project in links.projects">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item" ng-repeat="imageLink in project.imageLinks">
+                    <img ng-src={{imageLink}} alt="Chania">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
